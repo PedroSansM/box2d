@@ -197,10 +197,10 @@ install(
 
 include(CMakePackageConfigHelpers)
 
-write_basic_package_version_file(
-  "${CMAKE_CURRENT_BINARY_DIR}/box2dConfigVersion.cmake"
-  COMPATIBILITY SameMajorVersion
-)
+#write_basic_package_version_file(
+#  "${CMAKE_CURRENT_BINARY_DIR}/box2dConfigVersion.cmake"
+#  COMPATIBILITY SameMajorVersion
+#)
 
 install(
   FILES "${CMAKE_CURRENT_BINARY_DIR}/box2dConfigVersion.cmake"
